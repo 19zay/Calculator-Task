@@ -11,7 +11,7 @@ var head
 head = ('<H1>A Simple Calculator')
 document.write(head)
 
-if(isNaN(num1) || isNaN(num2) || isNaN(calculate)){
+if(isNaN(num1) || isNaN(num2)){
     alert('Incorrect input, refresh.')
 }
 else{
