@@ -7,9 +7,6 @@ let calculate = (prompt("Enter operator ( either +,-,*or / )"));
 let num2 = parseFloat(prompt("Enter a Another Number"));
 let result = ('${num1} ${calculate} ${num2}');
 
-var head
-head = ('<H1>A Simple Calculator')
-document.write(head)
 
 if(isNaN(num1) || isNaN(num2)){
     alert('Incorrect input, refresh.')
